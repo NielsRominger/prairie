@@ -1,0 +1,44 @@
+.Maze {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+#maze {
+    border-collapse: collapse;
+}
+
+#maze td {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.wall div {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.path div {
+    background-color: lightsalmon;
+    width: 100%;
+    height: 100%;
+}
+
+.start div {
+    background-color: green;
+}
+
+.destination div {
+    background-color: red;
+}
+
+.onPath div {
+    background-color: red;
+}
