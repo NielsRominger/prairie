@@ -123,3 +123,9 @@
     left:470px; /* Position en pixels de la gauche de la page */
     z-index: 1;
 }
+
+@keyframes draw-line {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
