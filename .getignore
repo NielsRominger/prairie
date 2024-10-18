@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+
+# Vite cache
+.vite/
+.vitepress/dist
+
+# Local environment files
+.env.local
+.env.*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Mac system files
+.DS_Store
+
+# Linux system files
+*.swp
+
+# Temporary files
+tmp/
+temp/
+
+# Other build artifacts
+*.tsbuildinfo
